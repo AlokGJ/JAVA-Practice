@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/btn_black"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_white"
+        android:padding="20dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/ButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude:" />
+
+    <EditText
+        android:id="@+id/longi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        style="@style/ButtonText"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.43"
+        android:text="Latitude:" />
+
+    <EditText
+        android:id="@+id/lat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/gaurd"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/btn_orange"
+        android:text="Gaurdian"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/btn_orange"
+        android:text="Physician"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/btn_orange"
+        android:text="Store Images"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/sparsh"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/btn_orange"
+        android:text="Other 2"
+        android:textSize="25dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/btn_orange"
+        android:text="Retrieve Images"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/btn_orange"
+        android:text="Exit"
+        android:textSize="25dp" />
+</LinearLayout>
+
+</ScrollView>

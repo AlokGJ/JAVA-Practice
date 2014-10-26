@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sahaayata.bvb.edu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+   
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="com.google.android.maps" />
+        <activity
+            android:name="sahaayata.bvb.edu.MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name=".Menu"
+			android:label="Login">
+			<intent-filter>
+				<action android:name="sahaayata.bvb.edu.Menu" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+        <activity 
+            android:name=".MenuList"
+			android:label="Menu">
+			<intent-filter>
+				<action android:name="sahaayata.bvb.edu.MenuList" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+        <activity 
+            android:name=".Track"
+			android:label="Track">
+			<intent-filter>
+				<action android:name="sahaayata.bvb.edu.Track" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+        <activity 
+            android:name=".Web"
+			android:label="Track">
+			<intent-filter>
+				<action android:name="sahaayata.bvb.edu.Web" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+    </application>
+
+</manifest>
