@@ -11,6 +11,7 @@ class DemoException{
 		}
 		finally{
 			System.out.println("Program about Exception");
+			System.out.println("Changes done.");
 		}
 	}
 }
